@@ -4,9 +4,9 @@
 
 | Full Name | Role / Contribution |
 |---|---|
-| Member 1 | To complete |
-| Member 2 | To complete |
-| Member 3 | To complete |
+| Member 1 | Mustapha AARAB |
+| Member 2 | Aya AGRIGAH |
+| Member 3 | Atiqa ESSAYOUTI |
 
 ---
 
