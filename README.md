@@ -10,8 +10,6 @@
 
 ---
 
-
-
 # 1. Project Overview
 
 SmileFlow is a multi-agent dental clinic assistant designed to manage appointment booking through an intelligent web interface.
