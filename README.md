@@ -10,15 +10,7 @@
 
 ---
 
-# GitHub Repository
 
-Project source code:
-
-```text
-PASTE_GITHUB_LINK_HERE
-```
-
----
 
 # 1. Project Overview
 
