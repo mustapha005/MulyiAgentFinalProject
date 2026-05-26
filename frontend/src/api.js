@@ -1,0 +1,4 @@
+const API = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'
+export async function sendChatMessage(sessionId, message){ const r=await fetch(`${API}/api/chat`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({session_id:sessionId,message})}); if(!r.ok) throw new Error('chat failed'); return r.json() }
+export async function fetchPendingAppointments(){ const r=await fetch(`${API}/api/doctor/pending`); if(!r.ok) throw new Error('pending failed'); return r.json() }
+export async function sendDoctorDecision(id, decision, note=''){ const r=await fetch(`${API}/api/doctor/appointments/${id}/decision`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({decision,note})}); if(!r.ok) throw new Error('decision failed'); return r.json() }

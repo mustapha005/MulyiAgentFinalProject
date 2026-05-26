@@ -1,0 +1,8 @@
+treatment,duration_minutes,requires_doctor_approval,urgency_level
+Dental cleaning,30,false,normal
+Tooth pain consultation,30,true,medium
+Tooth extraction,60,true,high
+Teeth whitening,60,false,normal
+Implant consultation,45,true,medium
+Braces consultation,45,true,normal
+Emergency swelling,30,true,high
